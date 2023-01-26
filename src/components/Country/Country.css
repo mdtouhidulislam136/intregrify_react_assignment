@@ -1,0 +1,18 @@
+.Country{
+   display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 1px solid lightgray;
+    
+   
+}
+
+.image{
+    height: 50px;
+    width: 50px;
+   
+}
+
+.title{
+    display: grid;
+
+}
