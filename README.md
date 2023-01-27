@@ -1,12 +1,25 @@
-# Getting Started with Create React App
+# Project Requirements
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Create a home page (component) that displays the country data and it should look similar to **Image 1.**
+2. When you click on the button, it should navigate to another page showing detailed information about that country as **Image 2**. The URL for country detail will look like this: [https://restcountries.com/v3.1/name/{name](https://restcountries.com/v3.1/name/%7Bname)}
+3. Create a search field that allows users to search country by country name.
+4. When displaying country data, please add the pagination or lazy loading to only show 5 countries as in **Image 1**.
+5. Make use of the following react concepts:
+    - Use Functional React Component
+    - React hooks: useState, useEfect, useParams
+6. You can use Bootstrap, Vanilla CSS, or any other framework you wish for styling
+7. After finishing the task, push the code to a public repository on GitHub and deploy it to Netlify, Vercel, or any other static website hosting alternatives. When submitting the assignment, provide us with both links i.e. the link to the GitHub repository and the link to the deployed application.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## Live server
+[https://intregrify-react-assignment.vercel.app/]
+
+
+
+
+
+<!-- ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -67,4 +80,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
