@@ -3,7 +3,6 @@ import "./Country.css";
 import { Link } from "react-router-dom";
 
 const Country = (props) => {
-    console.log(props)
   return (
     <div>
       <div className="Country">
@@ -11,7 +10,7 @@ const Country = (props) => {
         <p>{props.name}</p>
         <p> {props.region}</p>
         <p>{props.population}</p>
-        <p>Language: {props.language} </p>
+        <p>{props.subregion} </p>
 
         <Link to={`/countyDetails/${props.CountryCode}`}>
           <button className="country_details">Details</button>

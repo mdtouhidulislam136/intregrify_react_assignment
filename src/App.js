@@ -6,8 +6,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SearchItem from "./components/Search/SearchItem";
 
-
-
 function App() {
   return (
     <div className="App">
@@ -22,9 +20,5 @@ function App() {
     </div>
   );
 }
-
-
-
-
 
 export default App;

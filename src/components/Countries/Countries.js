@@ -23,13 +23,9 @@ function Countries() {
   const filteredSearch = countries.filter((country) =>
     country.name.common.toLowerCase().includes(search.toLowerCase())
   );
-    const currentPosts = filteredSearch.slice(
-      indexOfFirstCountry,
-      indexOfLastCountry
-    );
+  const currentCountry = filteredSearch.slice(indexOfFirstCountry,indexOfLastCountry);
 
-  console.log(filteredSearch);
-
+  
   // change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
   const handleSearch = (e) => {
@@ -49,17 +45,21 @@ function Countries() {
         <h6>Region</h6>
         <h6>Population</h6>
         <h6>Language</h6>
-        <h6>Language</h6>
+        <h6>Country Details</h6>
       </div>
-      {filteredSearch.map((country) => (
+
+      {currentCountry.map((country) => (
         <Country
           flags={country.flags.png}
           name={country.name.common}
           region={country.region}
           population={country.population}
           CountryCode={country.cca2}
+          subregion={country.subregion}
         ></Country>
       ))}
+
+    
 
       <Pagination
         countryPerPage={countryPerPage}

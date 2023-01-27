@@ -1,11 +1,17 @@
 import React from "react";
-
+import "./search.css";
 
 const Search = ({ onChange, value }) => {
   return (
     <>
-      <div>
-        Find countries by name: <input onChange={onChange} value={value} type="search" />
+      <div className="search-bar">
+        <input
+          onChange={onChange}
+          value={value}
+          className="searchbox "
+          type=""
+          placeholder="Search by country name"
+        />
       </div>
     </>
   );

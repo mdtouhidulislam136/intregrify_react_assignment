@@ -1,5 +1,18 @@
 
-.searchbox{
+.search-bar{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.searchbox{
+    width: 500px;
+    border-color: gray;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.searchbox:hover{
+    background-color: #0765f1;
+    color: white;
+
 }
