@@ -1,0 +1,12 @@
+.country_detail{
+    display: flex;
+    
+}
+
+.Country_design{
+    border: 5px solid gray;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: lightblue;
+
+}

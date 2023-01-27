@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { LinkContainer } from "react-router-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Search from './Search';
+import Search from './Search/Search';
 
 export default function HomePage() {
   return (
@@ -25,10 +25,10 @@ export default function HomePage() {
                     Home
                   </Nav.Link>
                 </LinkContainer>
-                <LinkContainer className="nav-bar" to="/recipe">
+                <LinkContainer className="nav-bar" to="/searchItem">
                   <Nav.Link>Search Data</Nav.Link>
                 </LinkContainer>
-                <LinkContainer className="nav-bar" to="/feedback">
+                <LinkContainer className="nav-bar" to="/countyDetails">
                   <Nav.Link>Country Details</Nav.Link>
                 </LinkContainer>
               </Nav>

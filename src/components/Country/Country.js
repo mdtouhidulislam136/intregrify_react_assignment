@@ -11,12 +11,14 @@ const Country = (props) => {
         <p>{props.population}</p>
               <p>Language: {props.language} </p>
               
-              <button className="country_detaisl">Details</button>
+              <button className="country_detaisl"  onClick="href='../CountryDetails/CountryDetails'" >Details</button>
           </div>
           
           
     </div>
   );
 };
+
+
 
 export default Country;
