@@ -1,6 +1,6 @@
 .Country{
    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     border: 1px solid lightgray;
     
    
@@ -15,4 +15,18 @@
 .title{
     display: grid;
 
+}
+
+.country_detaisl{
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 5px ;
+   
+    
+}
+
+.country_detaisl:hover{
+    background-color: blue;
+    color: white;
 }

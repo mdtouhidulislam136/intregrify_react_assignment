@@ -29,7 +29,7 @@ export default function HomePage() {
                   <Nav.Link>Search Data</Nav.Link>
                 </LinkContainer>
                 <LinkContainer className="nav-bar" to="/feedback">
-                  <Nav.Link>Feedback</Nav.Link>
+                  <Nav.Link>Country Details</Nav.Link>
                 </LinkContainer>
               </Nav>
             </Container>

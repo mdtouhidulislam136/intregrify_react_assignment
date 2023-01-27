@@ -2,7 +2,23 @@
 
 .text{
   display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     margin-left: 0%;
 }
 
+
+.paginations{
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+ 
+  
+}
+
+#click{
+  border: 1px solid blue;
+}
+
+#click:hover{
+  background-color: red;
+}

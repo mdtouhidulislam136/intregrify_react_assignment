@@ -6,11 +6,15 @@ const Country = (props) => {
     <div>
       <div className="Country">
         <img className="image" src={props.flags} alt="" />
-        <p >{props.name}</p>
-        <p > {props.region}</p>
-        <p >{props.population}</p>
-        <p >Language: {props.language} </p>
-      </div>
+        <p>{props.name}</p>
+        <p> {props.region}</p>
+        <p>{props.population}</p>
+              <p>Language: {props.language} </p>
+              
+              <button className="country_detaisl">Details</button>
+          </div>
+          
+          
     </div>
   );
 };
