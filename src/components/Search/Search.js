@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SearchItem from "./SearchItem";
+import "./search.css";
 
 export default function Search() {
   const [search, setSearch] = useState("");
@@ -14,7 +15,7 @@ export default function Search() {
         });
     }
   };
-
+  console.log(search)
   return (
     <>
       <div className="searchbox">

@@ -1,14 +1,14 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
 
-export default function SearchItem(props) {
-console.log(props.name);
+
+const Search = ({ onChange, value }) => {
   return (
-    <div className="mt-5 ">
-          <Container>
-              {/* <h2>{props.data.population}</h2> */}
-        
-      </Container>
-    </div>
+    <>
+      <div>
+        Find countries by name: <input onChange={onChange} value={value} type="search" />
+      </div>
+    </>
   );
-}
+};
+
+export default Search;

@@ -15,8 +15,8 @@ function App() {
         <HomePage />
         <Routes>
           <Route path="/" element={<Countries />} />
-          <Route path="/countyDetails" element={<CountryDetails />} />
-          <Route path="/searchItem" element={<SearchItem/>} />
+          <Route path="/countyDetails/:id" element={<CountryDetails />} />
+          <Route path="/searchItem" element={<SearchItem />} />
         </Routes>
       </BrowserRouter>
     </div>
