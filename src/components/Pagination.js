@@ -23,3 +23,4 @@ const Pagination = ({ countryPerPage, totalCountry, paginate }) => {
 };
 
 export default Pagination;
+

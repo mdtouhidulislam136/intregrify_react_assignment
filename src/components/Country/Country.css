@@ -27,6 +27,6 @@
 }
 
 .country_details:hover{
-    background-color: blue;
+    background-color: gray;
     color: white;
 }
