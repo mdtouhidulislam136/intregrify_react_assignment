@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "../App.css";
 
 const Pagination = ({ countryPerPage, totalCountry, paginate }) => {
@@ -9,10 +9,15 @@ const Pagination = ({ countryPerPage, totalCountry, paginate }) => {
 
   return (
     <div>
-      <h6 className="paginations" >
+      <h6 className="paginations">
         {pageNumbers.map((number) => (
           <h6 key={number} className="page-item">
-            <a onClick={() => paginate(number)} href="#" className="page-link" id='click'>
+            <a
+              onClick={() => paginate(number)}
+              href="#"
+              className="page-link"
+              id="click"
+            >
               {number}
             </a>
           </h6>
@@ -23,4 +28,3 @@ const Pagination = ({ countryPerPage, totalCountry, paginate }) => {
 };
 
 export default Pagination;
-
